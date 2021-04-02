@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1F5EC4261513B600E26C2D /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F5EC3261513B600E26C2D /* EventsViewController.swift */; };
+		1C1F5EC926178C4D00E26C2D /* spotlightbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F5EC826178C4D00E26C2D /* spotlightbanner.png */; };
+		1C1F5ECD2617945D00E26C2D /* artist1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F5ECB2617945D00E26C2D /* artist1.jpg */; };
+		1C1F5ECE2617945D00E26C2D /* artist2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F5ECC2617945D00E26C2D /* artist2.jpg */; };
 		1C946A822603DA21004D716F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946A812603DA21004D716F /* AppDelegate.swift */; };
 		1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946A832603DA21004D716F /* SceneDelegate.swift */; };
 		1C946A862603DA21004D716F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946A852603DA21004D716F /* ViewController.swift */; };
 		1C946A892603DA21004D716F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A872603DA21004D716F /* Main.storyboard */; };
 		1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8A2603DA22004D716F /* Assets.xcassets */; };
 		1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8C2603DA22004D716F /* LaunchScreen.storyboard */; };
-		5E76A6872607C208002E8583 /* button-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6822607C207002E8583 /* button-4.png */; };
-		5E76A6882607C208002E8583 /* button-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6832607C207002E8583 /* button-5.png */; };
-		5E76A6892607C208002E8583 /* button-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6842607C207002E8583 /* button-3.png */; };
-		5E76A68A2607C208002E8583 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6852607C208002E8583 /* button.png */; };
-		5E76A68B2607C208002E8583 /* button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6862607C208002E8583 /* button-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1F5EC3261513B600E26C2D /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		1C1F5EC826178C4D00E26C2D /* spotlightbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlightbanner.png; sourceTree = "<group>"; };
+		1C1F5ECB2617945D00E26C2D /* artist1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artist1.jpg; sourceTree = "<group>"; };
+		1C1F5ECC2617945D00E26C2D /* artist2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artist2.jpg; sourceTree = "<group>"; };
 		1C946A7E2603DA21004D716F /* iOSBootleggersFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBootleggersFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C946A812603DA21004D716F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C946A832603DA21004D716F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,11 +32,6 @@
 		1C946A8A2603DA22004D716F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C946A8D2603DA22004D716F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C946A8F2603DA22004D716F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E76A6822607C207002E8583 /* button-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-4.png"; path = "iOSBootleggersFinalProject/button-4.png"; sourceTree = SOURCE_ROOT; };
-		5E76A6832607C207002E8583 /* button-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-5.png"; path = "iOSBootleggersFinalProject/button-5.png"; sourceTree = SOURCE_ROOT; };
-		5E76A6842607C207002E8583 /* button-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-3.png"; path = "iOSBootleggersFinalProject/button-3.png"; sourceTree = SOURCE_ROOT; };
-		5E76A6852607C208002E8583 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = iOSBootleggersFinalProject/button.png; sourceTree = SOURCE_ROOT; };
-		5E76A6862607C208002E8583 /* button-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-2.png"; path = "iOSBootleggersFinalProject/button-2.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C1F5EC626178B2D00E26C2D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1C1F5ECB2617945D00E26C2D /* artist1.jpg */,
+				1C1F5ECC2617945D00E26C2D /* artist2.jpg */,
+				1C1F5EC826178C4D00E26C2D /* spotlightbanner.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		1C946A752603DA21004D716F = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +74,7 @@
 		1C946A802603DA21004D716F /* iOSBootleggersFinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				5E76A6812607C1ED002E8583 /* Images */,
+				1C1F5EC626178B2D00E26C2D /* Images */,
 				5E76A6792607BE34002E8583 /* Classes */,
 				5E76A6782607BE22002E8583 /* ViewControllers */,
 				5E76A6762607BDE5002E8583 /* Storyboards */,
@@ -91,6 +99,7 @@
 				1C946A812603DA21004D716F /* AppDelegate.swift */,
 				1C946A852603DA21004D716F /* ViewController.swift */,
 				1C946A832603DA21004D716F /* SceneDelegate.swift */,
+				1C1F5EC3261513B600E26C2D /* EventsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -100,18 +109,6 @@
 			children = (
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		5E76A6812607C1ED002E8583 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				5E76A6862607C208002E8583 /* button-2.png */,
-				5E76A6842607C207002E8583 /* button-3.png */,
-				5E76A6822607C207002E8583 /* button-4.png */,
-				5E76A6832607C207002E8583 /* button-5.png */,
-				5E76A6852607C208002E8583 /* button.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,13 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E76A68A2607C208002E8583 /* button.png in Resources */,
-				5E76A6882607C208002E8583 /* button-5.png in Resources */,
-				5E76A68B2607C208002E8583 /* button-2.png in Resources */,
-				5E76A6872607C208002E8583 /* button-4.png in Resources */,
 				1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */,
-				5E76A6892607C208002E8583 /* button-3.png in Resources */,
+				1C1F5ECE2617945D00E26C2D /* artist2.jpg in Resources */,
 				1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */,
+				1C1F5EC926178C4D00E26C2D /* spotlightbanner.png in Resources */,
+				1C1F5ECD2617945D00E26C2D /* artist1.jpg in Resources */,
 				1C946A892603DA21004D716F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C946A862603DA21004D716F /* ViewController.swift in Sources */,
+				1C1F5EC4261513B600E26C2D /* EventsViewController.swift in Sources */,
 				1C946A822603DA21004D716F /* AppDelegate.swift in Sources */,
 				1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */,
 			);
