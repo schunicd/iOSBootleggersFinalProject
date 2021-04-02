@@ -13,12 +13,7 @@
 		1C946A892603DA21004D716F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A872603DA21004D716F /* Main.storyboard */; };
 		1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8A2603DA22004D716F /* Assets.xcassets */; };
 		1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8C2603DA22004D716F /* LaunchScreen.storyboard */; };
-		5E76A6872607C208002E8583 /* button-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6822607C207002E8583 /* button-4.png */; };
-		5E76A6882607C208002E8583 /* button-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6832607C207002E8583 /* button-5.png */; };
-		5E76A6892607C208002E8583 /* button-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6842607C207002E8583 /* button-3.png */; };
-		5E76A68A2607C208002E8583 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6852607C208002E8583 /* button.png */; };
-		5E76A68B2607C208002E8583 /* button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6862607C208002E8583 /* button-2.png */; };
-		5E76A68E2607E12E002E8583 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76A68D2607E12E002E8583 /* AdminViewController.swift */; };
+		5E76A6D926178B50002E8583 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76A6D826178B50002E8583 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +25,7 @@
 		1C946A8A2603DA22004D716F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C946A8D2603DA22004D716F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C946A8F2603DA22004D716F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E76A6822607C207002E8583 /* button-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-4.png"; path = "iOSBootleggersFinalProject/button-4.png"; sourceTree = SOURCE_ROOT; };
-		5E76A6832607C207002E8583 /* button-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-5.png"; path = "iOSBootleggersFinalProject/button-5.png"; sourceTree = SOURCE_ROOT; };
-		5E76A6842607C207002E8583 /* button-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-3.png"; path = "iOSBootleggersFinalProject/button-3.png"; sourceTree = SOURCE_ROOT; };
-		5E76A6852607C208002E8583 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = iOSBootleggersFinalProject/button.png; sourceTree = SOURCE_ROOT; };
-		5E76A6862607C208002E8583 /* button-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-2.png"; path = "iOSBootleggersFinalProject/button-2.png"; sourceTree = SOURCE_ROOT; };
-		5E76A68D2607E12E002E8583 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		5E76A6D826178B50002E8583 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +83,7 @@
 				1C946A812603DA21004D716F /* AppDelegate.swift */,
 				1C946A852603DA21004D716F /* ViewController.swift */,
 				1C946A832603DA21004D716F /* SceneDelegate.swift */,
-				5E76A68D2607E12E002E8583 /* AdminViewController.swift */,
+				5E76A6D826178B50002E8583 /* AboutViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -108,11 +98,6 @@
 		5E76A6812607C1ED002E8583 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5E76A6862607C208002E8583 /* button-2.png */,
-				5E76A6842607C207002E8583 /* button-3.png */,
-				5E76A6822607C207002E8583 /* button-4.png */,
-				5E76A6832607C207002E8583 /* button-5.png */,
-				5E76A6852607C208002E8583 /* button.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -174,12 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E76A68A2607C208002E8583 /* button.png in Resources */,
-				5E76A6882607C208002E8583 /* button-5.png in Resources */,
-				5E76A68B2607C208002E8583 /* button-2.png in Resources */,
-				5E76A6872607C208002E8583 /* button-4.png in Resources */,
 				1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */,
-				5E76A6892607C208002E8583 /* button-3.png in Resources */,
 				1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */,
 				1C946A892603DA21004D716F /* Main.storyboard in Resources */,
 			);
@@ -192,9 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E76A68E2607E12E002E8583 /* AdminViewController.swift in Sources */,
 				1C946A862603DA21004D716F /* ViewController.swift in Sources */,
 				1C946A822603DA21004D716F /* AppDelegate.swift in Sources */,
+				5E76A6D926178B50002E8583 /* AboutViewController.swift in Sources */,
 				1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
