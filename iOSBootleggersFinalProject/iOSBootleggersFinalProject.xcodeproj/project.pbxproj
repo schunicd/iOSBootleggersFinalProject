@@ -14,6 +14,9 @@
 		1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8A2603DA22004D716F /* Assets.xcassets */; };
 		1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8C2603DA22004D716F /* LaunchScreen.storyboard */; };
 		5E76A6D926178B50002E8583 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76A6D826178B50002E8583 /* AboutViewController.swift */; };
+		5E76A6DE26237534002E8583 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6DD26237534002E8583 /* button.png */; };
+		5E76A6E126237AD7002E8583 /* drums.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6E026237AD7002E8583 /* drums.png */; };
+		5E76A6E426237ADF002E8583 /* trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A6E326237ADF002E8583 /* trumpet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		1C946A8D2603DA22004D716F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C946A8F2603DA22004D716F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E76A6D826178B50002E8583 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5E76A6DD26237534002E8583 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		5E76A6E026237AD7002E8583 /* drums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drums.png; sourceTree = "<group>"; };
+		5E76A6E326237ADF002E8583 /* trumpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 		5E76A6812607C1ED002E8583 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5E76A6E326237ADF002E8583 /* trumpet.png */,
+				5E76A6E026237AD7002E8583 /* drums.png */,
+				5E76A6DD26237534002E8583 /* button.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -160,6 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */,
+				5E76A6E426237ADF002E8583 /* trumpet.png in Resources */,
+				5E76A6DE26237534002E8583 /* button.png in Resources */,
+				5E76A6E126237AD7002E8583 /* drums.png in Resources */,
 				1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */,
 				1C946A892603DA21004D716F /* Main.storyboard in Resources */,
 			);
