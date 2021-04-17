@@ -10,7 +10,9 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    //variable accessed in EventsViewController and SpotlightViewController, used to determine if
+    //SpotlightViewController should display webpage for spotlightOne or spotlightTwo
+    var spotlightOneMoreInfo = true
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
