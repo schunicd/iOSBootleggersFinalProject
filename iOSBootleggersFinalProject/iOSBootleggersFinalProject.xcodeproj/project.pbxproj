@@ -23,6 +23,7 @@
 		1C946A892603DA21004D716F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A872603DA21004D716F /* Main.storyboard */; };
 		1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8A2603DA22004D716F /* Assets.xcassets */; };
 		1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8C2603DA22004D716F /* LaunchScreen.storyboard */; };
+		802F5FB9262B9C3F00680430 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F5FB8262B9C3F00680430 /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		1C946A8A2603DA22004D716F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C946A8D2603DA22004D716F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C946A8F2603DA22004D716F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802F5FB8262B9C3F00680430 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				1C946A852603DA21004D716F /* ViewController.swift */,
 				1C946A832603DA21004D716F /* SceneDelegate.swift */,
 				1C1F5EC3261513B600E26C2D /* EventsViewController.swift */,
+				802F5FB8262B9C3F00680430 /* MusicViewController.swift */,
 				1C1F5ED0262393CC00E26C2D /* SpotlightViewController.swift */,
 			);
 			path = ViewControllers;
@@ -200,6 +203,7 @@
 			files = (
 				1C1F5ED4262B66E000E26C2D /* AboutViewController.swift in Sources */,
 				1C946A862603DA21004D716F /* ViewController.swift in Sources */,
+				802F5FB9262B9C3F00680430 /* MusicViewController.swift in Sources */,
 				1C1F5ED1262393CC00E26C2D /* SpotlightViewController.swift in Sources */,
 				1C1F5EC4261513B600E26C2D /* EventsViewController.swift in Sources */,
 				1C946A822603DA21004D716F /* AppDelegate.swift in Sources */,
@@ -264,6 +268,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KKN4T4FJ9W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -325,6 +330,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KKN4T4FJ9W;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -359,7 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Derek-Schunicke.iOSBootleggersFinalProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -377,7 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Derek-Schunicke.iOSBootleggersFinalProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
