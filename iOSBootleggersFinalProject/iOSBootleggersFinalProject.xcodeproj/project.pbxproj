@@ -20,6 +20,7 @@
 		FC57D71026220CDC00002255 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57D70F26220CDC00002255 /* MenuViewController.swift */; };
 		FC57D71326220D1E00002255 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57D71226220D1E00002255 /* MenuItemViewController.swift */; };
 		FC57D717262B472900002255 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57D716262B472900002255 /* SiteCell.swift */; };
+		FCC9051C262CD20000A7E78D /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9051B262CD20000A7E78D /* TwitterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FC57D70F26220CDC00002255 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FC57D71226220D1E00002255 /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
 		FC57D716262B472900002255 /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SiteCell.swift; path = iOSBootleggersFinalProject/ViewControllers/SiteCell.swift; sourceTree = SOURCE_ROOT; };
+		FCC9051B262CD20000A7E78D /* TwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1C1F5EC3261513B600E26C2D /* EventsViewController.swift */,
 				FC57D70F26220CDC00002255 /* MenuViewController.swift */,
 				FC57D71226220D1E00002255 /* MenuItemViewController.swift */,
+				FCC9051B262CD20000A7E78D /* TwitterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC9051C262CD20000A7E78D /* TwitterViewController.swift in Sources */,
 				FC57D71326220D1E00002255 /* MenuItemViewController.swift in Sources */,
 				1C946A862603DA21004D716F /* ViewController.swift in Sources */,
 				FC57D717262B472900002255 /* SiteCell.swift in Sources */,

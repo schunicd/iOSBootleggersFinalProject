@@ -59,17 +59,22 @@ class MenuItemViewController: UIViewController {
     {
         let itemPriceIndex = self.itemPrice.selectedSegmentIndex //which index was selected
         let price = self.itemPrice.titleForSegment(at: itemPriceIndex)//sets the price according to the title of the selected index
-        let alertbox = UIAlertController(title: "Send Order", message: "You ordered" + itemName.text! + " " + price!, preferredStyle: .alert) //shows what was order and the selection made
+        let alertbox = UIAlertController(title: "Send Order", message: "You ordered " + itemName.text! + " " + price!, preferredStyle: .alert) //shows what was ordered and the selection made
         let noAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        
-        let yesAction = UIAlertAction(title: "Yes", style: .default, handler: { (action: UIAlertAction!) in
-            print("Order has been sent to the kitchen.  Your server will bring it to your table shortly!")
-        })//confirmation that the order has been sent to the kitchen
+        let yesAction = UIAlertAction(title: "Yes", style: .default, handler: { (action) in self.confirmKitchen()
+            })       
         
         alertbox.addAction(noAction)
         alertbox.addAction(yesAction)
         present(alertbox, animated: true)
         
+    }
+    //function to create another alert inside the sendOrder alert confirmation that the order has been sent to the kitchen
+    @IBAction func confirmKitchen(){
+        let alertController = UIAlertController.init(title: "Order Sent", message: "Order has been sent to the kitchen.  Your server will bring it to your table shortly!", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction.init(title: "OK", style: .default, handler: nil)
+            )
+            self.present(alertController, animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
