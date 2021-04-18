@@ -9,8 +9,9 @@ import UIKit
 //importing webkit to be able to display webpages
 import WebKit
 
-class SpotlightViewController: ViewController, WKNavigationDelegate{
+class SpotlightViewController: UIViewController, WKNavigationDelegate{
 
+    //creating IBOutlets to connect to the webView and activity indicator
     @IBOutlet var webView : WKWebView!
     @IBOutlet var activity : UIActivityIndicatorView!
     
