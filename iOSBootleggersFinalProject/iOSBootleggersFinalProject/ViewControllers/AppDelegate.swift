@@ -9,6 +9,11 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var menuItem = " "
+    var menuPrice1 = " "
+    var menuPrice2 = " "
+    var menuImage = " "
 
 
 

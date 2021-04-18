@@ -17,6 +17,9 @@
 		1C946A892603DA21004D716F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A872603DA21004D716F /* Main.storyboard */; };
 		1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8A2603DA22004D716F /* Assets.xcassets */; };
 		1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8C2603DA22004D716F /* LaunchScreen.storyboard */; };
+		FC57D71026220CDC00002255 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57D70F26220CDC00002255 /* MenuViewController.swift */; };
+		FC57D71326220D1E00002255 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57D71226220D1E00002255 /* MenuItemViewController.swift */; };
+		FC57D717262B472900002255 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57D716262B472900002255 /* SiteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		1C946A8A2603DA22004D716F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C946A8D2603DA22004D716F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C946A8F2603DA22004D716F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC57D70F26220CDC00002255 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FC57D71226220D1E00002255 /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
+		FC57D716262B472900002255 /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SiteCell.swift; path = iOSBootleggersFinalProject/ViewControllers/SiteCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,7 @@
 		1C1F5EC626178B2D00E26C2D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1C946A8A2603DA22004D716F /* Assets.xcassets */,
 				1C1F5ECB2617945D00E26C2D /* artist1.jpg */,
 				1C1F5ECC2617945D00E26C2D /* artist2.jpg */,
 				1C1F5EC826178C4D00E26C2D /* spotlightbanner.png */,
@@ -95,11 +102,12 @@
 		5E76A6782607BE22002E8583 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1C946A8A2603DA22004D716F /* Assets.xcassets */,
 				1C946A812603DA21004D716F /* AppDelegate.swift */,
 				1C946A852603DA21004D716F /* ViewController.swift */,
 				1C946A832603DA21004D716F /* SceneDelegate.swift */,
 				1C1F5EC3261513B600E26C2D /* EventsViewController.swift */,
+				FC57D70F26220CDC00002255 /* MenuViewController.swift */,
+				FC57D71226220D1E00002255 /* MenuItemViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -107,6 +115,7 @@
 		5E76A6792607BE34002E8583 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC57D716262B472900002255 /* SiteCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -184,7 +193,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC57D71326220D1E00002255 /* MenuItemViewController.swift in Sources */,
 				1C946A862603DA21004D716F /* ViewController.swift in Sources */,
+				FC57D717262B472900002255 /* SiteCell.swift in Sources */,
+				FC57D71026220CDC00002255 /* MenuViewController.swift in Sources */,
 				1C1F5EC4261513B600E26C2D /* EventsViewController.swift in Sources */,
 				1C946A822603DA21004D716F /* AppDelegate.swift in Sources */,
 				1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */,
