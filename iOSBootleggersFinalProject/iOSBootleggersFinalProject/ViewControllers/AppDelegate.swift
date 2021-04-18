@@ -6,13 +6,17 @@
 //
 
 import UIKit
+import MediaPlayer
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var musicPlayer: MPMusicPlayerApplicationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        musicPlayer = MPMusicPlayerApplicationController.applicationQueuePlayer
+    
+        musicPlayer!.setQueue(with: .songs())
         // Override point for customization after application launch.
         return true
     }
