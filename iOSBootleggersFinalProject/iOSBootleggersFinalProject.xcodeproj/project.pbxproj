@@ -27,6 +27,10 @@
 		80CEFC82262CD67300082C61 /* FinalDatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = 80CEFC81262CD67300082C61 /* FinalDatabase.sql */; };
 		80CEFC8B262CDDE500082C61 /* CustomerSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */; };
 		80CEFC9E262D05B700082C61 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC9D262D05B700082C61 /* MusicViewController.swift */; };
+		80CEFCB7262D128F00082C61 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCB6262D128F00082C61 /* SiteCell.swift */; };
+		80CEFCBA262D12AD00082C61 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCB9262D12AD00082C61 /* MenuItemViewController.swift */; };
+		80CEFCBD262D12C800082C61 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCBC262D12C800082C61 /* TwitterViewController.swift */; };
+		80CEFCC0262D12E800082C61 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCBF262D12E800082C61 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		80CEFC86262CD7AA00082C61 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSignUpViewController.swift; sourceTree = "<group>"; };
 		80CEFC9D262D05B700082C61 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		80CEFCB6262D128F00082C61 /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		80CEFCB9262D12AD00082C61 /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
+		80CEFCBC262D12C800082C61 /* TwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		80CEFCBF262D12E800082C61 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,9 @@
 				1C1F5ED0262393CC00E26C2D /* SpotlightViewController.swift */,
 				80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */,
 				80CEFC9D262D05B700082C61 /* MusicViewController.swift */,
+				80CEFCB9262D12AD00082C61 /* MenuItemViewController.swift */,
+				80CEFCBC262D12C800082C61 /* TwitterViewController.swift */,
+				80CEFCBF262D12E800082C61 /* MenuViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -140,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				80CEFC7C262CD45700082C61 /* Data.swift */,
+				80CEFCB6262D128F00082C61 /* SiteCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -239,14 +251,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CEFCBD262D12C800082C61 /* TwitterViewController.swift in Sources */,
 				80CEFC7D262CD45700082C61 /* Data.swift in Sources */,
 				1C1F5ED4262B66E000E26C2D /* AboutViewController.swift in Sources */,
 				1C946A862603DA21004D716F /* ViewController.swift in Sources */,
+				80CEFCBA262D12AD00082C61 /* MenuItemViewController.swift in Sources */,
 				1C1F5ED1262393CC00E26C2D /* SpotlightViewController.swift in Sources */,
 				80CEFC8B262CDDE500082C61 /* CustomerSignUpViewController.swift in Sources */,
+				80CEFCC0262D12E800082C61 /* MenuViewController.swift in Sources */,
 				1C1F5EC4261513B600E26C2D /* EventsViewController.swift in Sources */,
 				80CEFC9E262D05B700082C61 /* MusicViewController.swift in Sources */,
 				1C946A822603DA21004D716F /* AppDelegate.swift in Sources */,
+				80CEFCB7262D128F00082C61 /* SiteCell.swift in Sources */,
 				1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
