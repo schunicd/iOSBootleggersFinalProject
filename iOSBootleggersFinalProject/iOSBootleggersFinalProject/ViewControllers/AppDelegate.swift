@@ -13,6 +13,11 @@ import MediaPlayer
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
+    var menuItem = " "
+    var menuPrice1 = " "
+    var menuPrice2 = " "
+    var menuImage = " "
+    
     var databaseName : String? = "FinalDatabase.sql"
     var databasePath : String?
     var entries : [Data] = []
