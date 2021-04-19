@@ -2,7 +2,6 @@
 //  MusicViewController.swift
 //  iOSBootleggersFinalProject
 //
-//  Created by Lucas Zanlorensi on 2021-04-17.
 //  Class used to control the behaviour of the music view controller
 
 import UIKit
