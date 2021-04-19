@@ -26,6 +26,7 @@
 		80CEFC7D262CD45700082C61 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC7C262CD45700082C61 /* Data.swift */; };
 		80CEFC82262CD67300082C61 /* FinalDatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = 80CEFC81262CD67300082C61 /* FinalDatabase.sql */; };
 		80CEFC8B262CDDE500082C61 /* CustomerSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */; };
+		80CEFC9E262D05B700082C61 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC9D262D05B700082C61 /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		80CEFC85262CD7AA00082C61 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		80CEFC86262CD7AA00082C61 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSignUpViewController.swift; sourceTree = "<group>"; };
+		80CEFC9D262D05B700082C61 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				1C1F5EC3261513B600E26C2D /* EventsViewController.swift */,
 				1C1F5ED0262393CC00E26C2D /* SpotlightViewController.swift */,
 				80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */,
+				80CEFC9D262D05B700082C61 /* MusicViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				1C1F5ED1262393CC00E26C2D /* SpotlightViewController.swift in Sources */,
 				80CEFC8B262CDDE500082C61 /* CustomerSignUpViewController.swift in Sources */,
 				1C1F5EC4261513B600E26C2D /* EventsViewController.swift in Sources */,
+				80CEFC9E262D05B700082C61 /* MusicViewController.swift in Sources */,
 				1C946A822603DA21004D716F /* AppDelegate.swift in Sources */,
 				1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */,
 			);

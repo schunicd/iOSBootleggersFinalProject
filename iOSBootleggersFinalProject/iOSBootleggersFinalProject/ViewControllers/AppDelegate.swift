@@ -7,7 +7,7 @@
 
 import UIKit
 import SQLite3
-
+import MediaPlayer
 
 
 @main
@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var databaseName : String? = "FinalDatabase.sql"
     var databasePath : String?
     var entries : [Data] = []
-
+    var musicPlayer: MPMusicPlayerApplicationController?
+    
     //variable accessed in EventsViewController and SpotlightViewController, used to determine if
     //SpotlightViewController should display webpage for spotlightOne or spotlightTwo
     var spotlightOneMoreInfo = true
@@ -31,6 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         checkAndCreateDatabase()
         readDataFromDatabase()
+        
+        musicPlayer = MPMusicPlayerApplicationController.applicationQueuePlayer
+            
+        musicPlayer!.setQueue(with: .songs())
         
         return true
     }
