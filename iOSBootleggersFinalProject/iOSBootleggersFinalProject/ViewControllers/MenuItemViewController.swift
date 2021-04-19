@@ -45,7 +45,6 @@ class MenuItemViewController: UIViewController {
         itemName.textAlignment = .center
         itemName.backgroundColor = .clear
         itemName.font = UIFont.boldSystemFont(ofSize: 20)
-        
     }
     
     //function to set the two prices in the segmented control
