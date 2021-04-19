@@ -18,7 +18,7 @@ class SiteCell: UITableViewCell {
         primaryLabel.textAlignment = .left
         primaryLabel.font = UIFont.boldSystemFont(ofSize: 20)
         primaryLabel.backgroundColor = .clear
-        primaryLabel.textColor = .black
+        primaryLabel.textColor = .white
         
         //inserts the label and the image to the table
         super.init(style: style, reuseIdentifier: reuseIdentifier)

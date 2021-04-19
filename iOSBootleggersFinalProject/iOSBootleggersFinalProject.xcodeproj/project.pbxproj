@@ -17,6 +17,7 @@
 		1C1F5EDE262B684500E26C2D /* button-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F5EDD262B684500E26C2D /* button-4.png */; };
 		1C1F5EE1262B685B00E26C2D /* trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F5EE0262B685B00E26C2D /* trumpet.png */; };
 		1C1F5EE4262B6CF100E26C2D /* curtain_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F5EE3262B6CF100E26C2D /* curtain_background.jpg */; };
+		1C1F5F6E262D170000E26C2D /* menu_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F5F6D262D170000E26C2D /* menu_background.jpg */; };
 		1C946A822603DA21004D716F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946A812603DA21004D716F /* AppDelegate.swift */; };
 		1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946A832603DA21004D716F /* SceneDelegate.swift */; };
 		1C946A862603DA21004D716F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946A852603DA21004D716F /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		1C1F5EDD262B684500E26C2D /* button-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-4.png"; sourceTree = "<group>"; };
 		1C1F5EE0262B685B00E26C2D /* trumpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpet.png; sourceTree = "<group>"; };
 		1C1F5EE3262B6CF100E26C2D /* curtain_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = curtain_background.jpg; sourceTree = "<group>"; };
+		1C1F5F6D262D170000E26C2D /* menu_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menu_background.jpg; sourceTree = "<group>"; };
 		1C946A7E2603DA21004D716F /* iOSBootleggersFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBootleggersFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C946A812603DA21004D716F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C946A832603DA21004D716F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		1C1F5EC626178B2D00E26C2D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1C1F5F6D262D170000E26C2D /* menu_background.jpg */,
 				1C1F5EE3262B6CF100E26C2D /* curtain_background.jpg */,
 				1C1F5EE0262B685B00E26C2D /* trumpet.png */,
 				1C1F5EDD262B684500E26C2D /* button-4.png */,
@@ -236,6 +239,7 @@
 				1C1F5EE4262B6CF100E26C2D /* curtain_background.jpg in Resources */,
 				1C1F5ECE2617945D00E26C2D /* artist2.jpg in Resources */,
 				1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */,
+				1C1F5F6E262D170000E26C2D /* menu_background.jpg in Resources */,
 				1C1F5EDE262B684500E26C2D /* button-4.png in Resources */,
 				1C1F5EC926178C4D00E26C2D /* spotlightbanner.png in Resources */,
 				1C1F5ECD2617945D00E26C2D /* artist1.jpg in Resources */,
