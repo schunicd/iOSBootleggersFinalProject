@@ -31,6 +31,7 @@
 		80CEFCBA262D12AD00082C61 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCB9262D12AD00082C61 /* MenuItemViewController.swift */; };
 		80CEFCBD262D12C800082C61 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCBC262D12C800082C61 /* TwitterViewController.swift */; };
 		80CEFCC0262D12E800082C61 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCBF262D12E800082C61 /* MenuViewController.swift */; };
+		80CEFCDF262D195D00082C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CEFCDE262D195D00082C61 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		80CEFCB9262D12AD00082C61 /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
 		80CEFCBC262D12C800082C61 /* TwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
 		80CEFCBF262D12E800082C61 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		80CEFCDE262D195D00082C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		1C1F5EC626178B2D00E26C2D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				80CEFCDE262D195D00082C61 /* Assets.xcassets */,
 				1C1F5EE3262B6CF100E26C2D /* curtain_background.jpg */,
 				1C1F5EE0262B685B00E26C2D /* trumpet.png */,
 				1C1F5EDD262B684500E26C2D /* button-4.png */,
@@ -240,6 +243,7 @@
 				1C1F5EC926178C4D00E26C2D /* spotlightbanner.png in Resources */,
 				1C1F5ECD2617945D00E26C2D /* artist1.jpg in Resources */,
 				1C1F5EE1262B685B00E26C2D /* trumpet.png in Resources */,
+				80CEFCDF262D195D00082C61 /* Assets.xcassets in Resources */,
 				1C946A892603DA21004D716F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
