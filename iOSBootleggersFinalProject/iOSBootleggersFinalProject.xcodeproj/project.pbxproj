@@ -23,6 +23,9 @@
 		1C946A892603DA21004D716F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A872603DA21004D716F /* Main.storyboard */; };
 		1C946A8B2603DA22004D716F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8A2603DA22004D716F /* Assets.xcassets */; };
 		1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C946A8C2603DA22004D716F /* LaunchScreen.storyboard */; };
+		80CEFC7D262CD45700082C61 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC7C262CD45700082C61 /* Data.swift */; };
+		80CEFC82262CD67300082C61 /* FinalDatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = 80CEFC81262CD67300082C61 /* FinalDatabase.sql */; };
+		80CEFC8B262CDDE500082C61 /* CustomerSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,11 @@
 		1C946A8A2603DA22004D716F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C946A8D2603DA22004D716F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C946A8F2603DA22004D716F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CEFC7C262CD45700082C61 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		80CEFC81262CD67300082C61 /* FinalDatabase.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = FinalDatabase.sql; sourceTree = "<group>"; };
+		80CEFC85262CD7AA00082C61 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		80CEFC86262CD7AA00082C61 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,7 @@
 			children = (
 				1C946A802603DA21004D716F /* iOSBootleggersFinalProject */,
 				1C946A7F2603DA21004D716F /* Products */,
+				80CEFC84262CD7A900082C61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +99,8 @@
 		1C946A802603DA21004D716F /* iOSBootleggersFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				80CEFC80262CD66100082C61 /* Database */,
+				80CEFC7B262CD42300082C61 /* Classes */,
 				1C1F5EC626178B2D00E26C2D /* Images */,
 				5E76A6782607BE22002E8583 /* ViewControllers */,
 				5E76A6762607BDE5002E8583 /* Storyboards */,
@@ -117,8 +128,34 @@
 				1C946A832603DA21004D716F /* SceneDelegate.swift */,
 				1C1F5EC3261513B600E26C2D /* EventsViewController.swift */,
 				1C1F5ED0262393CC00E26C2D /* SpotlightViewController.swift */,
+				80CEFC8A262CDDE500082C61 /* CustomerSignUpViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		80CEFC7B262CD42300082C61 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				80CEFC7C262CD45700082C61 /* Data.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		80CEFC80262CD66100082C61 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				80CEFC81262CD67300082C61 /* FinalDatabase.sql */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		80CEFC84262CD7A900082C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80CEFC86262CD7AA00082C61 /* libsqlite3.0.tbd */,
+				80CEFC85262CD7AA00082C61 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CEFC82262CD67300082C61 /* FinalDatabase.sql in Resources */,
 				1C1F5EDB262B682A00E26C2D /* drums.png in Resources */,
 				1C946A8E2603DA22004D716F /* LaunchScreen.storyboard in Resources */,
 				1C1F5EE4262B6CF100E26C2D /* curtain_background.jpg in Resources */,
@@ -198,9 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CEFC7D262CD45700082C61 /* Data.swift in Sources */,
 				1C1F5ED4262B66E000E26C2D /* AboutViewController.swift in Sources */,
 				1C946A862603DA21004D716F /* ViewController.swift in Sources */,
 				1C1F5ED1262393CC00E26C2D /* SpotlightViewController.swift in Sources */,
+				80CEFC8B262CDDE500082C61 /* CustomerSignUpViewController.swift in Sources */,
 				1C1F5EC4261513B600E26C2D /* EventsViewController.swift in Sources */,
 				1C946A822603DA21004D716F /* AppDelegate.swift in Sources */,
 				1C946A842603DA21004D716F /* SceneDelegate.swift in Sources */,
